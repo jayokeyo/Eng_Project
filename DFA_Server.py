@@ -254,6 +254,7 @@ def Allocate_Frequencies(Satellite_ID,Footprint_ID,Threshold_Frequency,Number_of
     return Allocated_Frequency
 
 def Deallocate_Frequency(Frequency,Footprint_ID):
+    import mysql.connector as mysql
     db = mysql.connect(
         host = "localhost",
         user = "JuliusOkeyo",
