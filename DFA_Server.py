@@ -257,8 +257,8 @@ def Deallocate_Frequency(Frequency,Footprint_ID):
     import mysql.connector as mysql
     db = mysql.connect(
         host = "localhost",
-        user = "JuliusOkeyo",
-        passwd = "Cyn0rAlnd01308!",
+        user = "********",
+        passwd = "**********",
         database = "DFAdb"
     )
     cursor = db.cursor()
